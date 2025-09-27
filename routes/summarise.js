@@ -6,7 +6,7 @@ import path from "path";
 import mammoth from "mammoth";
 import fetch from "node-fetch";
 import { parse } from "node-html-parser";
-import pdfParse from "pdf-parse";
+import pdfParse from "pdf-parse-fixed";
 
 const router = express.Router();
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
